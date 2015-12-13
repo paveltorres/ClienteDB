@@ -163,7 +163,7 @@ public class ActivityClienteDB extends AppCompatActivity {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         final IntentResult scanningResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
-        System.out.println("**************************RESULTADO");
+        System.out.println("*****************************RESULTADO");
         handleResult(scanningResult);
        /* if (scanningResult != null) {
             String scanContent = scanningResult.getContents();
