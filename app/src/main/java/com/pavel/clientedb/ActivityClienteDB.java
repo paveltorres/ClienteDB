@@ -61,7 +61,7 @@ public class ActivityClienteDB extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                System.out.println("**************************RESULTADO: " + rbtnMysql.getText());
+                System.out.println("**********************RESULTADO: " + rbtnMysql.getText());
                 rbtnMysql.setChecked(true);
                 rbtnOracle.setChecked(false);
 
@@ -72,7 +72,7 @@ public class ActivityClienteDB extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                System.out.println("**************************RESULTADO: " + rbtnOracle.getText());
+                System.out.println("**********************RESULTADO: " + rbtnOracle.getText());
                 rbtnMysql.setChecked(false);
                 rbtnOracle.setChecked(true);
 
@@ -163,7 +163,7 @@ public class ActivityClienteDB extends AppCompatActivity {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         final IntentResult scanningResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
-        System.out.println("**************************RESULTADO");
+        System.out.println("*****************************RESULTADO");
         handleResult(scanningResult);
        /* if (scanningResult != null) {
             String scanContent = scanningResult.getContents();
