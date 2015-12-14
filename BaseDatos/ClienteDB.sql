@@ -1,0 +1,297 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : 192.168.2.6
+Source Server Version : 50173
+Source Host           : localhost:3306
+Source Database       : ClienteDB
+
+Target Server Type    : MYSQL
+Target Server Version : 50173
+File Encoding         : 65001
+
+Date: 2015-12-13 19:31:36
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for `punto`
+-- ----------------------------
+DROP TABLE IF EXISTS `punto`;
+CREATE TABLE `punto` (
+  `secuencial` int(11) NOT NULL AUTO_INCREMENT,
+  `color` varchar(20) DEFAULT NULL,
+  `cantidad` int(11) DEFAULT NULL,
+  PRIMARY KEY (`secuencial`)
+) ENGINE=MyISAM AUTO_INCREMENT=267 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+-- Records of punto
+-- ----------------------------
+INSERT INTO `punto` VALUES ('1', 'azul', '1');
+INSERT INTO `punto` VALUES ('2', 'rojo', '1');
+INSERT INTO `punto` VALUES ('3', null, null);
+INSERT INTO `punto` VALUES ('4', 'verde', '1');
+INSERT INTO `punto` VALUES ('5', 'verde', '1');
+INSERT INTO `punto` VALUES ('6', 'verde', '1');
+INSERT INTO `punto` VALUES ('7', 'verde', '1');
+INSERT INTO `punto` VALUES ('8', 'rojo', '1');
+INSERT INTO `punto` VALUES ('9', 'rojo', '1');
+INSERT INTO `punto` VALUES ('10', 'rojo', '1');
+INSERT INTO `punto` VALUES ('11', 'verde', '1');
+INSERT INTO `punto` VALUES ('12', 'rojo', '1');
+INSERT INTO `punto` VALUES ('13', 'verde', '1');
+INSERT INTO `punto` VALUES ('14', 'rojo', '1');
+INSERT INTO `punto` VALUES ('15', 'verde', '1');
+INSERT INTO `punto` VALUES ('16', 'verde', '1');
+INSERT INTO `punto` VALUES ('17', 'verde', '1');
+INSERT INTO `punto` VALUES ('18', 'verde', '1');
+INSERT INTO `punto` VALUES ('19', 'rojo', '1');
+INSERT INTO `punto` VALUES ('20', 'rojo', '1');
+INSERT INTO `punto` VALUES ('21', 'rojo', '1');
+INSERT INTO `punto` VALUES ('22', 'rojo', '1');
+INSERT INTO `punto` VALUES ('23', 'verde', '1');
+INSERT INTO `punto` VALUES ('24', 'rojo', '1');
+INSERT INTO `punto` VALUES ('25', 'verde', '1');
+INSERT INTO `punto` VALUES ('26', 'verde', '1');
+INSERT INTO `punto` VALUES ('27', 'verde', '1');
+INSERT INTO `punto` VALUES ('28', 'verde', '1');
+INSERT INTO `punto` VALUES ('29', 'verde', '1');
+INSERT INTO `punto` VALUES ('30', 'verde', '1');
+INSERT INTO `punto` VALUES ('31', 'verde', '1');
+INSERT INTO `punto` VALUES ('32', 'verde', '1');
+INSERT INTO `punto` VALUES ('33', 'rojo', '1');
+INSERT INTO `punto` VALUES ('34', 'rojo', '1');
+INSERT INTO `punto` VALUES ('35', 'rojo', '1');
+INSERT INTO `punto` VALUES ('36', 'rojo', '1');
+INSERT INTO `punto` VALUES ('37', 'rojo', '1');
+INSERT INTO `punto` VALUES ('38', 'verde', '1');
+INSERT INTO `punto` VALUES ('39', 'rojo', '1');
+INSERT INTO `punto` VALUES ('40', 'rojo', '1');
+INSERT INTO `punto` VALUES ('41', 'rojo', '1');
+INSERT INTO `punto` VALUES ('42', 'rojo', '1');
+INSERT INTO `punto` VALUES ('43', 'rojo', '1');
+INSERT INTO `punto` VALUES ('44', 'rojo', '1');
+INSERT INTO `punto` VALUES ('45', 'verde', '1');
+INSERT INTO `punto` VALUES ('46', 'verde', '1');
+INSERT INTO `punto` VALUES ('47', 'verde', '1');
+INSERT INTO `punto` VALUES ('48', 'verde', '1');
+INSERT INTO `punto` VALUES ('49', 'verde', '1');
+INSERT INTO `punto` VALUES ('50', 'rojo', '1');
+INSERT INTO `punto` VALUES ('51', 'verde', '1');
+INSERT INTO `punto` VALUES ('52', 'rojo', '1');
+INSERT INTO `punto` VALUES ('53', 'verde', '1');
+INSERT INTO `punto` VALUES ('54', 'rojo', '1');
+INSERT INTO `punto` VALUES ('55', 'rojo', '1');
+INSERT INTO `punto` VALUES ('56', 'verde', '1');
+INSERT INTO `punto` VALUES ('57', 'verde', '1');
+INSERT INTO `punto` VALUES ('58', 'rojo', '1');
+INSERT INTO `punto` VALUES ('59', 'verde', '1');
+INSERT INTO `punto` VALUES ('60', 'rojo', '1');
+INSERT INTO `punto` VALUES ('61', 'verde', '1');
+INSERT INTO `punto` VALUES ('62', 'rojo', '1');
+INSERT INTO `punto` VALUES ('63', 'verde', '1');
+INSERT INTO `punto` VALUES ('64', 'rojo', '1');
+INSERT INTO `punto` VALUES ('65', 'verde', '1');
+INSERT INTO `punto` VALUES ('66', 'rojo', '1');
+INSERT INTO `punto` VALUES ('67', 'rojo', '1');
+INSERT INTO `punto` VALUES ('68', 'verde', '1');
+INSERT INTO `punto` VALUES ('69', 'rojo', '1');
+INSERT INTO `punto` VALUES ('70', 'rojo', '1');
+INSERT INTO `punto` VALUES ('71', 'rojo', '1');
+INSERT INTO `punto` VALUES ('72', 'rojo', '1');
+INSERT INTO `punto` VALUES ('73', 'verde', '1');
+INSERT INTO `punto` VALUES ('74', 'rojo', '1');
+INSERT INTO `punto` VALUES ('75', 'rojo', '1');
+INSERT INTO `punto` VALUES ('76', 'rojo', '1');
+INSERT INTO `punto` VALUES ('77', 'verde', '1');
+INSERT INTO `punto` VALUES ('78', 'rojo', '1');
+INSERT INTO `punto` VALUES ('79', 'rojo', '1');
+INSERT INTO `punto` VALUES ('80', 'rojo', '1');
+INSERT INTO `punto` VALUES ('81', 'rojo', '1');
+INSERT INTO `punto` VALUES ('82', 'rojo', '1');
+INSERT INTO `punto` VALUES ('83', 'rojo', '1');
+INSERT INTO `punto` VALUES ('84', 'rojo', '1');
+INSERT INTO `punto` VALUES ('85', 'rojo', '1');
+INSERT INTO `punto` VALUES ('86', 'rojo', '1');
+INSERT INTO `punto` VALUES ('87', 'rojo', '1');
+INSERT INTO `punto` VALUES ('88', 'rojo', '1');
+INSERT INTO `punto` VALUES ('89', 'rojo', '1');
+INSERT INTO `punto` VALUES ('90', 'rojo', '1');
+INSERT INTO `punto` VALUES ('91', 'verde', '1');
+INSERT INTO `punto` VALUES ('92', 'verde', '1');
+INSERT INTO `punto` VALUES ('93', 'rojo', '1');
+INSERT INTO `punto` VALUES ('94', 'rojo', '1');
+INSERT INTO `punto` VALUES ('95', 'verde', '1');
+INSERT INTO `punto` VALUES ('96', 'verde', '1');
+INSERT INTO `punto` VALUES ('97', 'verde', '1');
+INSERT INTO `punto` VALUES ('98', 'verde', '1');
+INSERT INTO `punto` VALUES ('99', 'verde', '1');
+INSERT INTO `punto` VALUES ('100', 'verde', '1');
+INSERT INTO `punto` VALUES ('101', 'verde', '1');
+INSERT INTO `punto` VALUES ('102', 'verde', '1');
+INSERT INTO `punto` VALUES ('103', 'verde', '1');
+INSERT INTO `punto` VALUES ('104', 'verde', '1');
+INSERT INTO `punto` VALUES ('105', 'verde', '1');
+INSERT INTO `punto` VALUES ('106', 'verde', '1');
+INSERT INTO `punto` VALUES ('107', 'verde', '1');
+INSERT INTO `punto` VALUES ('108', 'verde', '1');
+INSERT INTO `punto` VALUES ('109', 'verde', '1');
+INSERT INTO `punto` VALUES ('110', 'verde', '1');
+INSERT INTO `punto` VALUES ('111', 'verde', '1');
+INSERT INTO `punto` VALUES ('112', 'verde', '1');
+INSERT INTO `punto` VALUES ('113', 'verde', '1');
+INSERT INTO `punto` VALUES ('114', 'verde', '1');
+INSERT INTO `punto` VALUES ('115', 'verde', '1');
+INSERT INTO `punto` VALUES ('116', 'verde', '1');
+INSERT INTO `punto` VALUES ('117', 'verde', '1');
+INSERT INTO `punto` VALUES ('118', 'verde', '1');
+INSERT INTO `punto` VALUES ('119', 'verde', '1');
+INSERT INTO `punto` VALUES ('120', 'verde', '1');
+INSERT INTO `punto` VALUES ('121', 'verde', '1');
+INSERT INTO `punto` VALUES ('122', 'verde', '1');
+INSERT INTO `punto` VALUES ('123', 'verde', '1');
+INSERT INTO `punto` VALUES ('124', 'rojo', '1');
+INSERT INTO `punto` VALUES ('125', 'rojo', '1');
+INSERT INTO `punto` VALUES ('126', 'rojo', '1');
+INSERT INTO `punto` VALUES ('127', 'rojo', '1');
+INSERT INTO `punto` VALUES ('128', 'rojo', '1');
+INSERT INTO `punto` VALUES ('129', 'rojo', '1');
+INSERT INTO `punto` VALUES ('130', 'rojo', '1');
+INSERT INTO `punto` VALUES ('131', 'rojo', '1');
+INSERT INTO `punto` VALUES ('132', 'rojo', '1');
+INSERT INTO `punto` VALUES ('133', 'rojo', '1');
+INSERT INTO `punto` VALUES ('134', 'rojo', '1');
+INSERT INTO `punto` VALUES ('135', 'rojo', '1');
+INSERT INTO `punto` VALUES ('136', 'rojo', '1');
+INSERT INTO `punto` VALUES ('137', 'rojo', '1');
+INSERT INTO `punto` VALUES ('138', 'rojo', '1');
+INSERT INTO `punto` VALUES ('139', 'rojo', '1');
+INSERT INTO `punto` VALUES ('140', 'rojo', '1');
+INSERT INTO `punto` VALUES ('141', 'rojo', '1');
+INSERT INTO `punto` VALUES ('142', 'rojo', '1');
+INSERT INTO `punto` VALUES ('143', 'rojo', '1');
+INSERT INTO `punto` VALUES ('144', 'rojo', '1');
+INSERT INTO `punto` VALUES ('145', 'rojo', '1');
+INSERT INTO `punto` VALUES ('146', 'rojo', '1');
+INSERT INTO `punto` VALUES ('147', 'rojo', '1');
+INSERT INTO `punto` VALUES ('148', 'rojo', '1');
+INSERT INTO `punto` VALUES ('149', 'rojo', '1');
+INSERT INTO `punto` VALUES ('150', 'rojo', '1');
+INSERT INTO `punto` VALUES ('151', 'rojo', '1');
+INSERT INTO `punto` VALUES ('152', 'rojo', '1');
+INSERT INTO `punto` VALUES ('153', 'verde', '1');
+INSERT INTO `punto` VALUES ('154', 'verde', '1');
+INSERT INTO `punto` VALUES ('155', 'verde', '1');
+INSERT INTO `punto` VALUES ('156', 'verde', '1');
+INSERT INTO `punto` VALUES ('157', 'verde', '1');
+INSERT INTO `punto` VALUES ('158', 'verde', '1');
+INSERT INTO `punto` VALUES ('159', 'rojo', '1');
+INSERT INTO `punto` VALUES ('160', 'rojo', '1');
+INSERT INTO `punto` VALUES ('161', 'verde', '1');
+INSERT INTO `punto` VALUES ('162', 'verde', '1');
+INSERT INTO `punto` VALUES ('163', 'verde', '1');
+INSERT INTO `punto` VALUES ('164', 'verde', '1');
+INSERT INTO `punto` VALUES ('165', 'verde', '1');
+INSERT INTO `punto` VALUES ('166', 'verde', '1');
+INSERT INTO `punto` VALUES ('167', 'verde', '1');
+INSERT INTO `punto` VALUES ('168', 'verde', '1');
+INSERT INTO `punto` VALUES ('169', 'verde', '1');
+INSERT INTO `punto` VALUES ('170', 'verde', '1');
+INSERT INTO `punto` VALUES ('171', 'rojo', '1');
+INSERT INTO `punto` VALUES ('172', 'rojo', '1');
+INSERT INTO `punto` VALUES ('173', 'rojo', '1');
+INSERT INTO `punto` VALUES ('174', 'verde', '1');
+INSERT INTO `punto` VALUES ('175', 'verde', '1');
+INSERT INTO `punto` VALUES ('176', 'rojo', '1');
+INSERT INTO `punto` VALUES ('177', 'rojo', '1');
+INSERT INTO `punto` VALUES ('178', 'verde', '1');
+INSERT INTO `punto` VALUES ('179', 'verde', '1');
+INSERT INTO `punto` VALUES ('180', 'rojo', '1');
+INSERT INTO `punto` VALUES ('181', 'rojo', '1');
+INSERT INTO `punto` VALUES ('182', 'rojo', '1');
+INSERT INTO `punto` VALUES ('183', 'verde', '1');
+INSERT INTO `punto` VALUES ('184', 'verde', '1');
+INSERT INTO `punto` VALUES ('185', 'verde', '1');
+INSERT INTO `punto` VALUES ('186', 'verde', '1');
+INSERT INTO `punto` VALUES ('187', 'verde', '1');
+INSERT INTO `punto` VALUES ('188', 'rojo', '1');
+INSERT INTO `punto` VALUES ('189', 'rojo', '1');
+INSERT INTO `punto` VALUES ('190', 'verde', '1');
+INSERT INTO `punto` VALUES ('191', 'verde', '1');
+INSERT INTO `punto` VALUES ('192', 'verde', '1');
+INSERT INTO `punto` VALUES ('193', 'verde', '1');
+INSERT INTO `punto` VALUES ('194', 'rojo', '1');
+INSERT INTO `punto` VALUES ('195', 'verde', '1');
+INSERT INTO `punto` VALUES ('196', 'rojo', '1');
+INSERT INTO `punto` VALUES ('197', 'verde', '1');
+INSERT INTO `punto` VALUES ('198', 'rojo', '1');
+INSERT INTO `punto` VALUES ('199', 'rojo', '1');
+INSERT INTO `punto` VALUES ('200', 'verde', '1');
+INSERT INTO `punto` VALUES ('201', 'verde', '1');
+INSERT INTO `punto` VALUES ('202', 'rojo', '1');
+INSERT INTO `punto` VALUES ('203', 'rojo', '1');
+INSERT INTO `punto` VALUES ('204', 'verde', '1');
+INSERT INTO `punto` VALUES ('205', 'verde', '1');
+INSERT INTO `punto` VALUES ('206', 'rojo', '1');
+INSERT INTO `punto` VALUES ('207', 'verde', '1');
+INSERT INTO `punto` VALUES ('208', 'rojo', '1');
+INSERT INTO `punto` VALUES ('209', 'verde', '1');
+INSERT INTO `punto` VALUES ('210', 'verde', '1');
+INSERT INTO `punto` VALUES ('211', 'verde', '1');
+INSERT INTO `punto` VALUES ('212', 'verde', '1');
+INSERT INTO `punto` VALUES ('213', 'verde', '1');
+INSERT INTO `punto` VALUES ('214', 'verde', '1');
+INSERT INTO `punto` VALUES ('215', 'verde', '1');
+INSERT INTO `punto` VALUES ('216', 'verde', '1');
+INSERT INTO `punto` VALUES ('217', 'verde', '1');
+INSERT INTO `punto` VALUES ('218', 'verde', '1');
+INSERT INTO `punto` VALUES ('219', 'verde', '1');
+INSERT INTO `punto` VALUES ('220', 'verde', '1');
+INSERT INTO `punto` VALUES ('221', 'verde', '1');
+INSERT INTO `punto` VALUES ('222', 'verde', '1');
+INSERT INTO `punto` VALUES ('223', 'verde', '1');
+INSERT INTO `punto` VALUES ('224', 'verde', '1');
+INSERT INTO `punto` VALUES ('225', 'verde', '1');
+INSERT INTO `punto` VALUES ('226', 'verde', '1');
+INSERT INTO `punto` VALUES ('227', 'verde', '1');
+INSERT INTO `punto` VALUES ('228', 'verde', '1');
+INSERT INTO `punto` VALUES ('229', 'verde', '1');
+INSERT INTO `punto` VALUES ('230', 'verde', '1');
+INSERT INTO `punto` VALUES ('231', 'verde', '1');
+INSERT INTO `punto` VALUES ('232', 'rojo', '1');
+INSERT INTO `punto` VALUES ('233', 'rojo', '1');
+INSERT INTO `punto` VALUES ('234', 'verde', '1');
+INSERT INTO `punto` VALUES ('235', 'rojo', '1');
+INSERT INTO `punto` VALUES ('236', 'verde', '1');
+INSERT INTO `punto` VALUES ('237', 'rojo', '1');
+INSERT INTO `punto` VALUES ('238', 'verde', '1');
+INSERT INTO `punto` VALUES ('239', 'rojo', '1');
+INSERT INTO `punto` VALUES ('240', 'verde', '1');
+INSERT INTO `punto` VALUES ('241', 'rojo', '1');
+INSERT INTO `punto` VALUES ('242', 'verde', '1');
+INSERT INTO `punto` VALUES ('243', 'rojo', '1');
+INSERT INTO `punto` VALUES ('244', 'verde', '1');
+INSERT INTO `punto` VALUES ('245', 'verde', '1');
+INSERT INTO `punto` VALUES ('246', 'verde', '1');
+INSERT INTO `punto` VALUES ('247', 'verde', '1');
+INSERT INTO `punto` VALUES ('248', 'verde', '1');
+INSERT INTO `punto` VALUES ('249', 'verde', '1');
+INSERT INTO `punto` VALUES ('250', 'verde', '1');
+INSERT INTO `punto` VALUES ('251', 'verde', '1');
+INSERT INTO `punto` VALUES ('252', 'verde', '1');
+INSERT INTO `punto` VALUES ('253', 'verde', '1');
+INSERT INTO `punto` VALUES ('254', 'rojo', '1');
+INSERT INTO `punto` VALUES ('255', 'rojo', '1');
+INSERT INTO `punto` VALUES ('256', 'rojo', '1');
+INSERT INTO `punto` VALUES ('257', 'rojo', '1');
+INSERT INTO `punto` VALUES ('258', 'rojo', '1');
+INSERT INTO `punto` VALUES ('259', 'rojo', '1');
+INSERT INTO `punto` VALUES ('260', 'verde', '1');
+INSERT INTO `punto` VALUES ('261', 'verde', '1');
+INSERT INTO `punto` VALUES ('262', 'verde', '1');
+INSERT INTO `punto` VALUES ('263', 'verde', '1');
+INSERT INTO `punto` VALUES ('264', 'verde', '1');
+INSERT INTO `punto` VALUES ('265', 'verde', '1');
+INSERT INTO `punto` VALUES ('266', 'rojo', '1');
